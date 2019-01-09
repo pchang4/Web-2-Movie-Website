@@ -1,5 +1,4 @@
-*{margin:0;
-}
+*{margin:0;}
 
 body {
   background-image: url(https://cnet2.cbsistatic.com/img/Krd6JAx6VBrOdvj_q1Q8MEWv1q4=/1600x900/2018/10/25/3fdce9e7-49ed-4ce3-bb6a-d5bcdb612bff/overlord-ovl-ff-052k.jpg);
@@ -24,8 +23,6 @@ nav div {
   color: white;
   justify-content: center;
   align-items: center;
-  border-right: .5px solid grey;
-
   
 }
 
