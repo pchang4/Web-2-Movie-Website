@@ -1,0 +1,88 @@
+*{margin:0;
+}
+
+body {
+  background-image: url(http://cdn.collider.com/wp-content/uploads/2018/07/overlord-trailer-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  background-color:black;
+  height: 3vw;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+}
+
+nav div {
+  display: flex;
+  width: 33%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-right: .5px solid grey;
+
+  
+}
+
+nav div h2 {
+  widtH: 100%;
+  text-align: center;
+  font-size: 16pt;
+}
+
+nav div:hover { 
+  background-color: rgb(255,0,0,.2);
+}
+
+.featureblock {
+  position: absolute;
+  background-color: rgb(0,0,0,.85);
+  width: 46%;
+  height: 100%;
+  color: white;
+  padding-top: 6vw;
+}
+
+.featureblock h1 {
+  padding-left: 23%;
+  font-size: 56pt;
+}
+
+.summary{
+  margin-top: 10%;
+  margin-left: 18%;
+  width: 65%;
+  line-height: 2;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.imgs {
+  display:flex;
+  margin: auto;
+  margin-top: 10%;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.imgs div {
+  border: 3px solid rgb(255,255,255,.2);
+  width: 30%;
+  height: 13vw;
+  overflow: hidden;
+  
+}
+
+.imgs div img {
+  height: 100%;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
